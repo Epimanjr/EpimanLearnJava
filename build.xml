@@ -21,8 +21,13 @@
 	</jar>
 </target>
 
-<target name="runfile">
+<target name="readfile">
   <java classname="file.LireFichier" classpath="bin" fork="true"/>
+</target>
+
+
+<target name="writefile">
+  <java classname="file.EcrireFichier" classpath="bin" fork="true"/>
 </target>
 
 <target name="runjar" depends="jar">
