@@ -1,0 +1,4 @@
+Hello!
+How are you ?
+I am Maxime BLAISE and I would like to teach you how to read files in Java.
+Are you understand ?
